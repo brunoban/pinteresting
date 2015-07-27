@@ -79,5 +79,7 @@ Rails.application.configure do
   # Required for Devise
   #Note to set this for host name
   config.action_mailer.default_url_options = { host: 'www.bandeira.me', port: 3000 }
-
+  # Paperclip config:
+  Paperclip.options[:image_magick_path] = "/opt/ImageMagick/bin"
+  Paperclip.options[:command_path] = "/opt/ImageMagick/bin"
 end
