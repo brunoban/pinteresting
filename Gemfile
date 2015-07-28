@@ -15,6 +15,8 @@ gem 'coffee-rails', '~> 4.1.0'
 # Devise for user login
 gem 'devise', '~> 3.5.1'
 
+gem 'will_paginate', '~> 3.0.5'
+gem 'will_paginate-bootstrap'
 # Paperclip
 gem 'paperclip', '~> 4.3'
 
